@@ -1,0 +1,12 @@
+A basic example of how to configure a project consisting of a Kotlin Main class
+which calls a Rust function.
+
+This exists as a result of me messing around, I will probably use what I
+learned with this with other projects in the future.
+
+This requires Cargo with a Rust toolchain to be installed, actually building it
+is handled by a quick line in Gradle.
+
+The project is written for Linux, however it should be simple to adapt for
+Windows by just changing ".so" to ".dll" in src/main/kotlin/Main.kt on line 8,
+not sure though, have not tested it.
